@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAA8CC7208D8EA82339650FF /* Pods_Swifty_Proteins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D5B2C3E5754C38FE68370 /* Pods_Swifty_Proteins.framework */; };
 		EAC4A056290561E800F88736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A055290561E800F88736 /* AppDelegate.swift */; };
 		EAC4A058290561E800F88736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A057290561E800F88736 /* SceneDelegate.swift */; };
 		EAC4A05A290561E800F88736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A059290561E800F88736 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E1D9D5FDE20906DFCECF96D /* Pods-Swifty-Proteins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifty-Proteins.release.xcconfig"; path = "Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins.release.xcconfig"; sourceTree = "<group>"; };
+		8A3D5B2C3E5754C38FE68370 /* Pods_Swifty_Proteins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swifty_Proteins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC4A052290561E800F88736 /* Swifty-Proteins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty-Proteins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC4A055290561E800F88736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC4A057290561E800F88736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		EAC4A05E290561E800F88736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC4A061290561E800F88736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAC4A063290561E800F88736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFD1D0F81B7C08FACAC83EE /* Pods-Swifty-Proteins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifty-Proteins.debug.xcconfig"; path = "Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA8CC7208D8EA82339650FF /* Pods_Swifty_Proteins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AF4C3D3415DB2940380E5E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3D5B2C3E5754C38FE68370 /* Pods_Swifty_Proteins.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F39C7597F5EAE74026D1DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD1D0F81B7C08FACAC83EE /* Pods-Swifty-Proteins.debug.xcconfig */,
+				1E1D9D5FDE20906DFCECF96D /* Pods-Swifty-Proteins.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EAC4A049290561E800F88736 = {
 			isa = PBXGroup;
 			children = (
 				EAC4A054290561E800F88736 /* Swifty-Proteins */,
 				EAC4A053290561E800F88736 /* Products */,
+				E6F39C7597F5EAE74026D1DB /* Pods */,
+				0AF4C3D3415DB2940380E5E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAC4A066290561E800F88736 /* Build configuration list for PBXNativeTarget "Swifty-Proteins" */;
 			buildPhases = (
+				F5C61F55B88DFD4B3367713D /* [CP] Check Pods Manifest.lock */,
 				EAC4A04E290561E800F88736 /* Sources */,
 				EAC4A04F290561E800F88736 /* Frameworks */,
 				EAC4A050290561E800F88736 /* Resources */,
+				06F375654C5430FF94FFCBCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F375654C5430FF94FFCBCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C61F55B88DFD4B3367713D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swifty-Proteins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EAC4A04E290561E800F88736 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		EAC4A067290561E800F88736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFD1D0F81B7C08FACAC83EE /* Pods-Swifty-Proteins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +380,7 @@
 		};
 		EAC4A068290561E800F88736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1D9D5FDE20906DFCECF96D /* Pods-Swifty-Proteins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
