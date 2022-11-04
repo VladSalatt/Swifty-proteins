@@ -56,8 +56,21 @@
 				ECFD1D0F81B7C08FACAC83EE /* Pods-Swifty-Proteins.debug.xcconfig */,
 				1E1D9D5FDE20906DFCECF96D /* Pods-Swifty-Proteins.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA0E100229153B2300754D46 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EA0E100329153B2E00754D46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EAC4A049290561E800F88736 = {
@@ -81,6 +94,8 @@
 		EAC4A054290561E800F88736 /* Swifty-Proteins */ = {
 			isa = PBXGroup;
 			children = (
+				EA0E100329153B2E00754D46 /* Resources */,
+				EA0E100229153B2300754D46 /* Scenes */,
 				EAC4A055290561E800F88736 /* AppDelegate.swift */,
 				EAC4A057290561E800F88736 /* SceneDelegate.swift */,
 				EAC4A059290561E800F88736 /* ViewController.swift */,
