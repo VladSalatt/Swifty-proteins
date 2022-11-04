@@ -1,18 +1,14 @@
+
 import RxCocoa
 import RxSwift
 import UIKit
 
-final class LoginView: UIView {
-    private lazy var button: UIButton = {
-       let button = UIButton()
-    }()
+final class ProteinListView: UIView {
+    private enum Constants {}
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        backgroundColor = .white
-            
-        
+        backgroundColor = .blue
         makeConstraints()
         setupBindings()
     }
@@ -23,9 +19,9 @@ final class LoginView: UIView {
     }
 }
 
-extension Reactive where Base: LoginView {}
+extension Reactive where Base: ProteinListView {}
 
-private extension LoginView {
+private extension ProteinListView {
     func makeConstraints() {}
 
     func setupBindings() {}
