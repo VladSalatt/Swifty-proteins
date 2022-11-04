@@ -34,6 +34,15 @@
        output: Swifty-Proteins/Resources/Generated/Assets+Generated.swift
        params:
             enumName: I
+            
+ files:
+   inputs: Swifty-Proteins/Resources/
+   filter: .+\.txt$
+   outputs:
+     templateName: structured-swift5
+     output: Swifty-Proteins/Resources/Generated/Files.swift
+     params:
+            enumName: F
 
 
 ## Generate constants for your storyboards and XIBs.

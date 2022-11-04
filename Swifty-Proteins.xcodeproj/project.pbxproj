@@ -27,6 +27,8 @@
 		EAF3FE2A291557470068FB77 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF3FE28291557470068FB77 /* Localizable.strings */; };
 		EAF3FE2C291558860068FB77 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FE2B291558860068FB77 /* Strings+Generated.swift */; };
 		EAF3FE2E291559A60068FB77 /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FE2D291559A60068FB77 /* Assets+Generated.swift */; };
+		EAF3FE3129155D850068FB77 /* ligands.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAF3FE3029155D850068FB77 /* ligands.txt */; };
+		EAF3FE3329155E360068FB77 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FE3229155E360068FB77 /* Files.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		EAF3FE29291557470068FB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EAF3FE2B291558860068FB77 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
 		EAF3FE2D291559A60068FB77 /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
+		EAF3FE3029155D850068FB77 /* ligands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ligands.txt; sourceTree = "<group>"; };
+		EAF3FE3229155E360068FB77 /* Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
 		ECFD1D0F81B7C08FACAC83EE /* Pods-Swifty-Proteins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifty-Proteins.debug.xcconfig"; path = "Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 				EAC4A05E290561E800F88736 /* Assets.xcassets */,
 				EAC4A060290561E800F88736 /* LaunchScreen.storyboard */,
 				EAC4A063290561E800F88736 /* Info.plist */,
+				EAF3FE3029155D850068FB77 /* ligands.txt */,
 				EAF3FE28291557470068FB77 /* Localizable.strings */,
 			);
 			path = Resources;
@@ -172,6 +177,7 @@
 		EAF3FE26291554030068FB77 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				EAF3FE3229155E360068FB77 /* Files.swift */,
 				EAF3FE2D291559A60068FB77 /* Assets+Generated.swift */,
 				EAF3FE2B291558860068FB77 /* Strings+Generated.swift */,
 			);
@@ -242,6 +248,7 @@
 				EAC4A062290561E800F88736 /* LaunchScreen.storyboard in Resources */,
 				EAF3FE2A291557470068FB77 /* Localizable.strings in Resources */,
 				EAC4A05F290561E800F88736 /* Assets.xcassets in Resources */,
+				EAF3FE3129155D850068FB77 /* ligands.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +330,7 @@
 				EAF3FE2C291558860068FB77 /* Strings+Generated.swift in Sources */,
 				EAE6F88C291545EA00A049D7 /* ProteinViewModel.swift in Sources */,
 				EAE6F8812915454A00A049D7 /* ProteinListViewController.swift in Sources */,
+				EAF3FE3329155E360068FB77 /* Files.swift in Sources */,
 				EA0E100929153C8F00754D46 /* LoginViewModel.swift in Sources */,
 				EAE6F88A291545EA00A049D7 /* ProteinViewController.swift in Sources */,
 				EAC4A056290561E800F88736 /* AppDelegate.swift in Sources */,
