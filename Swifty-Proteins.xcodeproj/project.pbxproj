@@ -14,7 +14,6 @@
 		EA4F152D291542F300943616 /* AppRouter+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F152C291542F300943616 /* AppRouter+Login.swift */; };
 		EAC4A056290561E800F88736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A055290561E800F88736 /* AppDelegate.swift */; };
 		EAC4A058290561E800F88736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A057290561E800F88736 /* SceneDelegate.swift */; };
-		EAC4A05A290561E800F88736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A059290561E800F88736 /* ViewController.swift */; };
 		EAC4A05F290561E800F88736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC4A05E290561E800F88736 /* Assets.xcassets */; };
 		EAC4A062290561E800F88736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC4A060290561E800F88736 /* LaunchScreen.storyboard */; };
 		EAE6F8802915454A00A049D7 /* AppRouter+ProteinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6F87C2915454A00A049D7 /* AppRouter+ProteinList.swift */; };
@@ -40,7 +39,6 @@
 		EAC4A052290561E800F88736 /* Swifty-Proteins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty-Proteins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC4A055290561E800F88736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC4A057290561E800F88736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAC4A059290561E800F88736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAC4A05E290561E800F88736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC4A061290561E800F88736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAC4A063290561E800F88736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 				EA0E100229153B2300754D46 /* Scenes */,
 				EAC4A055290561E800F88736 /* AppDelegate.swift */,
 				EAC4A057290561E800F88736 /* SceneDelegate.swift */,
-				EAC4A059290561E800F88736 /* ViewController.swift */,
 			);
 			path = "Swifty-Proteins";
 			sourceTree = "<group>";
@@ -326,7 +323,6 @@
 				EAF3FE2C291558860068FB77 /* Strings+Generated.swift in Sources */,
 				EAE6F88C291545EA00A049D7 /* ProteinViewModel.swift in Sources */,
 				EAE6F8812915454A00A049D7 /* ProteinListViewController.swift in Sources */,
-				EAC4A05A290561E800F88736 /* ViewController.swift in Sources */,
 				EA0E100929153C8F00754D46 /* LoginViewModel.swift in Sources */,
 				EAE6F88A291545EA00A049D7 /* ProteinViewController.swift in Sources */,
 				EAC4A056290561E800F88736 /* AppDelegate.swift in Sources */,
