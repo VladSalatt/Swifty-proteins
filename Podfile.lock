@@ -14,6 +14,7 @@ PODS:
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
+  - SwiftGen (6.6.2)
 
 DEPENDENCIES:
   - AppRouter
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - RxDataSources
   - RxSwift
   - SnapKit
+  - SwiftGen
 
 SPEC REPOS:
   trunk:
@@ -31,6 +33,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SnapKit
+    - SwiftGen
 
 SPEC CHECKSUMS:
   AppRouter: 75e9e00c07bb00b1e5f2479d437b5a8bed142f1f
@@ -40,7 +43,8 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
 
-PODFILE CHECKSUM: 978d8d17fc5a3de25053e5fcfb04804101a2f633
+PODFILE CHECKSUM: 15333ca56e8dabdb60f25f8bc5f0ccbbc6912565
 
 COCOAPODS: 1.11.3

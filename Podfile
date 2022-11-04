@@ -9,12 +9,5 @@ target 'Swifty-Proteins' do
 	pod 'RxDataSources'
 	pod 'SnapKit'
 	pod 'AppRouter'
-end
-
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
-        end
-    end
+	pod 'SwiftGen'
 end

@@ -25,6 +25,9 @@
 		EAE6F88A291545EA00A049D7 /* ProteinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6F886291545EA00A049D7 /* ProteinViewController.swift */; };
 		EAE6F88B291545EA00A049D7 /* ProteinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6F887291545EA00A049D7 /* ProteinView.swift */; };
 		EAE6F88C291545EA00A049D7 /* ProteinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6F888291545EA00A049D7 /* ProteinViewModel.swift */; };
+		EAF3FE2A291557470068FB77 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF3FE28291557470068FB77 /* Localizable.strings */; };
+		EAF3FE2C291558860068FB77 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FE2B291558860068FB77 /* Strings+Generated.swift */; };
+		EAF3FE2E291559A60068FB77 /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FE2D291559A60068FB77 /* Assets+Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		EAE6F886291545EA00A049D7 /* ProteinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinViewController.swift; sourceTree = "<group>"; };
 		EAE6F887291545EA00A049D7 /* ProteinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinView.swift; sourceTree = "<group>"; };
 		EAE6F888291545EA00A049D7 /* ProteinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinViewModel.swift; sourceTree = "<group>"; };
+		EAF3FE29291557470068FB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EAF3FE2B291558860068FB77 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		EAF3FE2D291559A60068FB77 /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
 		ECFD1D0F81B7C08FACAC83EE /* Pods-Swifty-Proteins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifty-Proteins.debug.xcconfig"; path = "Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,9 +100,11 @@
 		EA0E100329153B2E00754D46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EAF3FE26291554030068FB77 /* Generated */,
 				EAC4A05E290561E800F88736 /* Assets.xcassets */,
 				EAC4A060290561E800F88736 /* LaunchScreen.storyboard */,
 				EAC4A063290561E800F88736 /* Info.plist */,
+				EAF3FE28291557470068FB77 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -164,6 +172,15 @@
 			path = Protein;
 			sourceTree = "<group>";
 		};
+		EAF3FE26291554030068FB77 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3FE2D291559A60068FB77 /* Assets+Generated.swift */,
+				EAF3FE2B291558860068FB77 /* Strings+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,6 +189,7 @@
 			buildConfigurationList = EAC4A066290561E800F88736 /* Build configuration list for PBXNativeTarget "Swifty-Proteins" */;
 			buildPhases = (
 				F5C61F55B88DFD4B3367713D /* [CP] Check Pods Manifest.lock */,
+				EAF3FE2F29155B1A0068FB77 /* SwiftGen */,
 				EAC4A04E290561E800F88736 /* Sources */,
 				EAC4A04F290561E800F88736 /* Frameworks */,
 				EAC4A050290561E800F88736 /* Resources */,
@@ -225,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC4A062290561E800F88736 /* LaunchScreen.storyboard in Resources */,
+				EAF3FE2A291557470068FB77 /* Localizable.strings in Resources */,
 				EAC4A05F290561E800F88736 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +267,25 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swifty-Proteins/Pods-Swifty-Proteins-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		EAF3FE2F29155B1A0068FB77 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\" config run\n";
 		};
 		F5C61F55B88DFD4B3367713D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -280,10 +318,12 @@
 			files = (
 				EAE6F88B291545EA00A049D7 /* ProteinView.swift in Sources */,
 				EAE6F8822915454A00A049D7 /* ProteinListView.swift in Sources */,
+				EAF3FE2E291559A60068FB77 /* Assets+Generated.swift in Sources */,
 				EAE6F8802915454A00A049D7 /* AppRouter+ProteinList.swift in Sources */,
 				EAE6F8832915454A00A049D7 /* ProteinListViewModel.swift in Sources */,
 				EA0E100729153C8F00754D46 /* LoginViewController.swift in Sources */,
 				EAE6F889291545EA00A049D7 /* AppRouter+Protein.swift in Sources */,
+				EAF3FE2C291558860068FB77 /* Strings+Generated.swift in Sources */,
 				EAE6F88C291545EA00A049D7 /* ProteinViewModel.swift in Sources */,
 				EAE6F8812915454A00A049D7 /* ProteinListViewController.swift in Sources */,
 				EAC4A05A290561E800F88736 /* ViewController.swift in Sources */,
@@ -305,6 +345,14 @@
 				EAC4A061290561E800F88736 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF3FE28291557470068FB77 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF3FE29291557470068FB77 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
