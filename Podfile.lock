@@ -3,6 +3,9 @@ PODS:
     - AppRouter/Core (= 5.1.0)
   - AppRouter/Core (5.1.0)
   - Differentiator (5.0.0)
+  - RxAppState (1.7.1):
+    - RxCocoa (~> 6.2)
+    - RxSwift (~> 6.2)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -18,6 +21,7 @@ PODS:
 
 DEPENDENCIES:
   - AppRouter
+  - RxAppState
   - RxCocoa
   - RxDataSources
   - RxSwift
@@ -28,6 +32,7 @@ SPEC REPOS:
   trunk:
     - AppRouter
     - Differentiator
+    - RxAppState
     - RxCocoa
     - RxDataSources
     - RxRelay
@@ -38,6 +43,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AppRouter: 75e9e00c07bb00b1e5f2479d437b5a8bed142f1f
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  RxAppState: 9c34f951d4ff8b9034f84016fe766202365bceb2
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
@@ -45,6 +51,6 @@ SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
 
-PODFILE CHECKSUM: 15333ca56e8dabdb60f25f8bc5f0ccbbc6912565
+PODFILE CHECKSUM: d598a56441f0ba1a6e4729e2a7b2466bc4478061
 
 COCOAPODS: 1.11.3

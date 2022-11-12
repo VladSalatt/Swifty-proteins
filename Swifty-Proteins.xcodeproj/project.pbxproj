@@ -11,7 +11,9 @@
 		EA0E100729153C8F00754D46 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0E100429153C8F00754D46 /* LoginViewController.swift */; };
 		EA0E100829153C8F00754D46 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0E100529153C8F00754D46 /* LoginView.swift */; };
 		EA0E100929153C8F00754D46 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0E100629153C8F00754D46 /* LoginViewModel.swift */; };
+		EA13393E2916CC3E00C695BB /* ProteinListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13393D2916CC3E00C695BB /* ProteinListViewCell.swift */; };
 		EA4F152D291542F300943616 /* AppRouter+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F152C291542F300943616 /* AppRouter+Login.swift */; };
+		EAC05994291FC1B500DA7594 /* Rx+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC05993291FC1B500DA7594 /* Rx+Ext.swift */; };
 		EAC4A056290561E800F88736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A055290561E800F88736 /* AppDelegate.swift */; };
 		EAC4A058290561E800F88736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4A057290561E800F88736 /* SceneDelegate.swift */; };
 		EAC4A05F290561E800F88736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC4A05E290561E800F88736 /* Assets.xcassets */; };
@@ -37,7 +39,9 @@
 		EA0E100429153C8F00754D46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EA0E100529153C8F00754D46 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EA0E100629153C8F00754D46 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EA13393D2916CC3E00C695BB /* ProteinListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinListViewCell.swift; sourceTree = "<group>"; };
 		EA4F152C291542F300943616 /* AppRouter+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRouter+Login.swift"; sourceTree = "<group>"; };
+		EAC05993291FC1B500DA7594 /* Rx+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+Ext.swift"; sourceTree = "<group>"; };
 		EAC4A052290561E800F88736 /* Swifty-Proteins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty-Proteins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC4A055290561E800F88736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC4A057290561E800F88736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,22 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		EA13393A2916CBDA00C695BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA13393D2916CC3E00C695BB /* ProteinListViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAC05992291FC1AC00DA7594 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAC05993291FC1B500DA7594 /* Rx+Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EAC4A049290561E800F88736 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +164,7 @@
 		EAC4A054290561E800F88736 /* Swifty-Proteins */ = {
 			isa = PBXGroup;
 			children = (
+				EAC05992291FC1AC00DA7594 /* Helpers */,
 				EA0E100329153B2E00754D46 /* Resources */,
 				EA0E100229153B2300754D46 /* Scenes */,
 				EAC4A055290561E800F88736 /* AppDelegate.swift */,
@@ -155,6 +176,7 @@
 		EAE6F87B2915453D00A049D7 /* ProteinList */ = {
 			isa = PBXGroup;
 			children = (
+				EA13393A2916CBDA00C695BB /* Views */,
 				EAE6F87C2915454A00A049D7 /* AppRouter+ProteinList.swift */,
 				EAE6F87D2915454A00A049D7 /* ProteinListViewController.swift */,
 				EAE6F87E2915454A00A049D7 /* ProteinListView.swift */,
@@ -326,6 +348,8 @@
 				EAE6F8802915454A00A049D7 /* AppRouter+ProteinList.swift in Sources */,
 				EAE6F8832915454A00A049D7 /* ProteinListViewModel.swift in Sources */,
 				EA0E100729153C8F00754D46 /* LoginViewController.swift in Sources */,
+				EA13393E2916CC3E00C695BB /* ProteinListViewCell.swift in Sources */,
+				EAC05994291FC1B500DA7594 /* Rx+Ext.swift in Sources */,
 				EAE6F889291545EA00A049D7 /* AppRouter+Protein.swift in Sources */,
 				EAF3FE2C291558860068FB77 /* Strings+Generated.swift in Sources */,
 				EAE6F88C291545EA00A049D7 /* ProteinViewModel.swift in Sources */,

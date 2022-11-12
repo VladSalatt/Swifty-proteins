@@ -29,7 +29,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-        AppRouter.openLogin()
+        // Если есть FaceID, показываем
+//        AppRouter.openLogin()
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

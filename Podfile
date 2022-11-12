@@ -7,6 +7,7 @@ target 'Swifty-Proteins' do
   	pod 'RxSwift'
 	pod 'RxCocoa'
 	pod 'RxDataSources'
+  pod 'RxAppState'
 	pod 'SnapKit'
 	pod 'AppRouter'
 	pod 'SwiftGen'
